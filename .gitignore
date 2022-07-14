@@ -1,15 +1,28 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+#【编辑器相关】
+#idea
+.idea
+.idea/
+*.iml
 
-# Test binary, built with `go test -c`
-*.test
+#vscode
+.vscode
+.vscode/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+#【系统相关】
+#macos
+.DS_Store
+**/.DS_Store
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+#【项目相关】
+tmp/*
+!tmp/.gitkeep
+data/*
+!data/.gitkeep
+var/tmp/*
+!var/tmp/.gitkeep
+var/data/*
+!var/data/.gitkeep
+
+#【部署相关】
+#gitlab ci
+.cache
